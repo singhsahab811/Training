@@ -7,8 +7,8 @@ import java.util.Scanner;
 public class SalarySlip {
     public static void main(String[] args) throws Exception{
         Scanner sc = new Scanner(System.in);
-        Locale lc = new Locale("en","IN");
-        NumberFormat nf = NumberFormat.getCurrencyInstance(lc);
+        Locale locale = new Locale("en","IN");
+        NumberFormat nf = NumberFormat.getCurrencyInstance(locale);
         Date date = new Date();
         DateFormat df = DateFormat.getDateTimeInstance();
         //Taking Input
